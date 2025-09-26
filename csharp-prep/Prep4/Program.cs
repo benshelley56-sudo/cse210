@@ -10,7 +10,6 @@ class Program
         Console.WriteLine("Enter a list of numbers, type 0 when finished. ");
 
         int usernum = -5;
-        //loop
         while (usernum != 0)
         {
             Console.Write("Enter a number (0 to quit): ");
