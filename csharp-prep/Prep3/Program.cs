@@ -11,6 +11,12 @@ class Program
         Console.Write("What Is your guess? ");
         int guess = int.Parse(Console.ReadLine());
 
+        // //will change a string into a integer
+        // if (int.TryParse(guess, out number))
+        // {
+            
+        // }
+
         while (guess != number)
         {
             if (guess > number)
@@ -26,8 +32,8 @@ class Program
             Console.Write("\nWhat Is your guess? ");
             guess = int.Parse(Console.ReadLine());
 
-        } 
+        }
         Console.WriteLine($"\nYou guessed it! the Magic Number is {number}");
-        
+
     }
 }

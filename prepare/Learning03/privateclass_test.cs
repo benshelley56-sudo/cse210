@@ -43,7 +43,7 @@ public class Fraction
     
         public void SetBottom(int bottom)
     {
-        _top = bottom;
+        _bottom = bottom;
         Console.WriteLine();
     }
 
