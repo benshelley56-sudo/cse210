@@ -83,7 +83,7 @@ class Program
                 Console.Write("How many until complete: ");
                 int target = int.Parse(Console.ReadLine());
 
-                Console.Write("Bonus points: ");
+                Console.Write("Bonus points(past the amount requred): ");
                 int bonus = int.Parse(Console.ReadLine());
 
                 manager.AddGoal(new ChecklistGoal(name, description, points, target, bonus));
