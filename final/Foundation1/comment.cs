@@ -8,10 +8,4 @@ public class Comment
         _cName = cName;
         _cText = cText;
     }
-    // public void DisplayComment()
-    // {
-    //     Console.WriteLine($"\n{_cName}");
-    //     Console.WriteLine($"{_cText}");
-
-    // }
 }
