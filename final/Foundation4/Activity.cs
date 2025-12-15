@@ -1,8 +1,8 @@
 
     public abstract class Activity
 {
-    private DateTime _date;
-    private int _minutes;
+    protected DateTime _date;
+    protected int _minutes;
 
     protected Activity(DateTime date, int minutes)
     {
